@@ -2,7 +2,7 @@ export default {
     getHomeList: async () => {
         return [
             {
-                slug: 'originals',
+                slug: 'Péssimo',
                 title: 'Originais do Netflix',
                 url: 'www.teste1.com.br'
             },

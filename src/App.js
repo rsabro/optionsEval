@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Tmdb from './Tmdb';
+// import ButtonTeste from './components/opcionalEval';
 
 export default () => {
 
@@ -21,8 +22,9 @@ export default () => {
           <button
           key={key}
           children={item.title}
-          onClick={() => {window.location.href = item.url}}
+          onClick={() => {console.log(item.slug)}}
           />
+          
         ))}
       </section>
     </div>
