@@ -1,6 +1,6 @@
 import React from "react";
 
-export const ButtonTeste = ({
+export const Button = ({
     children,
     type,
     onClick,
